@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title> Portfolio Website</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- SWIPER CSS -->
+    <link href="assets/css/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<!-- HEADER -->
+<header class="header" id="header">
+    <nav class="nav container">
+        <a class="nav__logo" href="#home">
+            <img alt="" class="nav__logo-img" src="assets/img/logo.png">
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a class="nav__link active-link" href="#home">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#about">About</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#services">Services</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#works">Works</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#experience">Experience</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#contact">Contact</a>
+                </li>
+            </ul>
+
+            <div class="nav__close" id="nav-close">
+                <i class='bx bx-x'></i>
+            </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-grid-alt'></i>
+        </div>
+    </nav>
+</header>
+
+<!-- MAIN -->
+<main class="main">
+    <!-- HOME -->
+    <section class="home container" id="home">
+        <div class="home__container grid">
+            <div class="home__data">
+                <h3 class="home__subtitle">Hello</h3>
+                <h1 class="home__title">I'm <span>Reel Guy</span></h1>
+                <div class="home__buttons">
+                    <span>Traveller</span>
+                    <span>Explorer</span>
+                    <span>Photographer</span>
+                </div>
+            </div>
+
+            <div class="home__images grid">
+                <img alt="" class="home__img" src="assets/img/photography-img9.jpg">
+                <div class="swiper home-swiper">
+                    <div class="swiper-wrapper">
+                        <img alt="" class="swiper-slide slide__img" src="assets/img/photography-img1.jpg">
+                        <img alt="" class="swiper-slide slide__img" src="assets/img/photography-img6.jpg">
+                        <img alt="" class="swiper-slide slide__img" src="assets/img/photography-img7.jpg">
+                        <img alt="" class="swiper-slide slide__img" src="assets/img/photography-img12.jpg">
+                        <img alt="" class="swiper-slide slide__img" src="assets/img/photography-img11.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="home__group grid">
+            <div class="home__details">
+                <p class="home__description">
+                    I help clients create <span> brands </span>, build digital <span> products </span> and <span> services </span>,
+                    innovate, find opportunities, and validate ideas.
+                </p>
+
+                <div class="home__social">
+                    <span class="home__social-follow">Follow Me On</span>
+                    <div class="home__social-links">
+                        <a class="home__social-link" href="" target="_blank">
+                            <i class='bx bxl-facebook-square'></i>
+                            <span>Like On Facebook</span>
+                        </a>
+                        <a class="home__social-link" href="" target="_blank">
+                            <i class='bx bxl-instagram-alt'></i>
+                            <span>Follow On Instagram</span>
+                        </a>
+                        <a class="home__social-link" href="#" target="_blank">
+                            <i class='bx bxl-linkedin-square'></i>
+                            <span>Connect On LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <img alt="" class="experience__img" src="assets/img/experience-img.jpg">
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+        <div class="about__container container grid">
+            <img alt="" class="about__img" src="assets/img/about__img.png">
+
+            <div class="about__data">
+                <span class="section__subtitle about__subtitle">My Intro</span>
+                <h2 class="section__title about__title">About Me</h2>
+
+                <p class="about__description">
+                    It is a long-established fact that a reader will be distracted by the readable content of a page
+                    when looking at its layout.
+                </p>
+                <p class="about__details">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat dolore magna aliqua Ut enim ad minim veniam duis aute irure dolor in
+                    reprehende.
+                </p>
+
+                <div class="about__award grid">
+                    <img alt="" class="award__img" src="assets/img/award-img.png">
+
+                    <div>
+                        <h3 class="award__title">
+                            International Photography <br> Awards 2016
+                        </h3>
+                        <p class="award__details">
+                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit and fugit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services section" id="services">
+        <span class="section__subtitle">My Services</span>
+        <h2 class="section__title">What I Offer</h2>
+
+        <div class="services__container container grid">
+            <div class="services__tab">
+                <div>
+                    <h3 class="services__button services__active" data-target="#ui__ux__design">
+                        UI/UX Design
+                    </h3>
+                </div>
+                <div>
+                    <h3 class="services__button" data-target="#website__design">
+                        Website Design
+                    </h3>
+                </div>
+                <div>
+                    <h3 class="services__button" data-target="#software__development">
+                        Software Development
+                    </h3>
+                </div>
+                <div>
+                    <h3 class="services__button"
+                        data-target="#search__engine__optimization">
+                        Search Engine Optimization
+                    </h3>
+                </div>
+            </div>
+
+            <div class="services__content">
+                <div class="services__group services__active" data-content id="ui__ux__design">
+                    <div class="services__item grid">
+                        <img alt="" class="services__img" src="assets/img/service-1.png">
+
+                        <div class="services__data">
+                            <h3 class="services__title">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form.
+                            </h3>
+                            <p class="services__details">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__group" data-content id="website__design">
+                    <div class="services__item grid">
+                        <img alt="" class="services__img" src="assets/img/service-2.png">
+
+                        <div class="services__data">
+                            <h3 class="services__title">
+                                Are there many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form.
+                            </h3>
+                            <p class="services__details">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__group" data-content id="software__development">
+                    <div class="services__item grid">
+                        <img alt="" class="services__img" src="assets/img/service-3.png">
+
+                        <div class="services__data">
+                            <h3 class="services__title">
+                                Many there are variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form.
+                            </h3>
+                            <p class="services__details">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__group" data-content id="search__engine__optimization">
+                    <div class="services__item grid">
+                        <img alt="" class="services__img" src="assets/img/service-4.png">
+
+                        <div class="services__data">
+                            <h3 class="services__title">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form.
+                            </h3>
+                            <p class="services__details">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="work section" id="works">
+        <span class="section__subtitle">My Portfolio</span>
+        <h2 class="section__title">Recent Works</h2>
+        <div class="work__container container">
+            <div class="work__content">
+                <img alt="" src="assets/img/photography-img1.jpg">
+            </div>
+            <div class="work__content">
+                <img alt="" src="assets/img/photography-img2.jpg">
+            </div>
+            <div class="work__content">
+                <img alt="" src="assets/img/photography-img3.jpg">
+            </div>
+            <div class="work__content">
+                <img alt="" src="assets/img/photography-img4.jpg">
+            </div>
+            <div class="work__content">
+                <img alt="" src="assets/img/photography-img5.jpg">
+            </div>
+            <div class="work__content">
+                <img alt="" src="assets/img/photography-img6.jpg">
+            </div>
+            <div class="work__content">
+                <img alt="" src="assets/img/photography-img7.jpg">
+            </div>
+            <div class="work__content">
+                <img alt="" src="assets/img/photography-img8.jpg">
+            </div>
+            <div class="work__content">
+                <img alt="" src="assets/img/photography-img9.jpg">
+            </div>
+            <div class="work__content">
+                <img alt="" src="assets/img/photography-img10.jpg">
+            </div>
+            <div class="work__content">
+                <img alt="" src="assets/img/photography-img11.jpg">
+            </div>
+            <div class="work__content">
+                <img alt="" src="assets/img/photography-img12.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECT -->
+    <section class="project section">
+        <div class="project__bg">
+            <div class="project__container container grid">
+                <h2 class="project__title">Want To Work Together?</h2>
+                <p class="project__description">I'm Available For Freelance Work.</p>
+                <button class="button">Hire Me</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="experience section" id="experience">
+        <span class="section__subtitle">My Journey</span>
+        <h2 class="section__title">Experiences</h2>
+
+        <div class="qualification__container container grid">
+
+            <div class="experience">
+                <div class="timeline">
+
+                    <div class="timeline__item">
+                        <div class="circle__dot"></div>
+                        <span class="timeline__date">
+                        <i class='bx bxs-calendar'></i>
+                           2018 - Present
+                    </span>
+                        <h3 class="timeline__title">Project Consultant</h3>
+                        <p class="timeline__text">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alterationr
+                        </p>
+                    </div>
+
+                    <div class="timeline__item">
+                        <div class="circle__dot"></div>
+                        <span class="timeline__date">
+                        <i class='bx bxs-calendar'></i>
+                           2018 - Present
+                    </span>
+                        <h3 class="timeline__title">Project Consultant</h3>
+                        <p class="timeline__text">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alterationr
+                        </p>
+                    </div>
+
+                    <div class="timeline__item">
+                        <div class="circle__dot"></div>
+                        <span class="timeline__date">
+                        <i class='bx bxs-calendar'></i>
+                           2018 - Present
+                    </span>
+                        <h3 class="timeline__title">Project Consultant</h3>
+                        <p class="timeline__text">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alterationr
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="experience">
+                <div class="timeline">
+
+                    <div class="timeline__item">
+                        <div class="circle__dot"></div>
+                        <span class="timeline__date">
+                        <i class='bx bxs-calendar'></i>
+                           2018 - Present
+                    </span>
+                        <h3 class="timeline__title">Project Consultant</h3>
+                        <p class="timeline__text">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alterationr
+                        </p>
+                    </div>
+
+                    <div class="timeline__item">
+                        <div class="circle__dot"></div>
+                        <span class="timeline__date">
+                        <i class='bx bxs-calendar'></i>
+                           2018 - Present
+                    </span>
+                        <h3 class="timeline__title">Project Consultant</h3>
+                        <p class="timeline__text">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alterationr
+                        </p>
+                    </div>
+
+                    <div class="timeline__item">
+                        <div class="circle__dot"></div>
+                        <span class="timeline__date">
+                        <i class='bx bxs-calendar'></i>
+                           2018 - Present
+                    </span>
+                        <h3 class="timeline__title">Project Consultant</h3>
+                        <p class="timeline__text">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alterationr
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+        <span class="section__subtitle">Get In Touch</span>
+        <h2 class="section__title">Contact Me</h2>
+        <div class="contact__container container grid">
+            <div class="contact__content">
+                <form action="" class="contact__form">
+                    <div class="contact__form-group">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag" for="name">Name</label>
+                            <input class="contact__form-input" id="name" placeholder="Insert Your Name" type="text">
+                        </div>
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag" for="email">Email</label>
+                            <input class="contact__form-input" id="email" placeholder="Insert Your Email" type="email">
+                        </div>
+                    </div>
+                    <div class="contact__form-div">
+                        <label class="contact__form-tag" for="subject">Subject</label>
+                        <input class="contact__form-input" id="subject" placeholder="Insert Your Subject"
+                               type="text">
+                    </div>
+                    <div class="contact__form-div contact__form-area">
+                        <label class="contact__form-tag" for="message">Message</label>
+                        <textarea class="contact__form-input" cols="30" id="message" name=""
+                                  placeholder="Write Your Message"
+                                  rows="10"></textarea>
+                    </div>
+                    <button class="button">Send Message</button>
+                </form>
+            </div>
+            <div class="contact__info">
+                <div class="contact__card">
+                    <div>
+                        <i class='bx bx-map-pin contact__icon'></i>
+                        <h3 class="contact__card-title">My Location</h3>
+                    </div>
+                    <span class="contact__card-data">P.O. Box 44600 , Kathmandu, Nepal</span>
+                </div>
+                <div class="contact__card">
+                    <div>
+                        <i class='bx bx-mobile-alt contact__icon'></i>
+                        <h3 class="contact__card-title">Give A Call</h3>
+                    </div>
+                    <span class="contact__card-data">988-7766-555</span>
+                </div>
+                <div class="contact__card">
+                    <div>
+                        <i class='bx bx-message-square-dots contact__icon'></i>
+                        <h3 class="contact__card-title">Email Me</h3>
+                    </div>
+                    <span class="contact__card-data">reelguy@gmail.com</span>
+                </div>
+                <div class="home__social">
+                    <div class="home__social-links">
+                        <a class="home__social-link" href="" target="_blank">
+                            <i class='bx bxl-dribbble'></i>
+                            <span>Follow On Dribble</span>
+                        </a>
+                        <a class="home__social-link" href="" target="_blank">
+                            <i class='bx bxl-skype'></i>
+                            <span>Text On Skype</span>
+                        </a>
+                        <a class="home__social-link" href="#" target="_blank">
+                            <i class='bx bxl-google-plus' ></i>
+                            <span>Connect On Google</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- LIGHTBOX -->
+<div class="lightbox">
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer__container container">
+        <h1 class="footer__title">Reel Guy</h1>
+        <ul class="footer__list">
+            <li>
+                <a class="footer__link" href="#about">About</a>
+            </li>
+            <li>
+                <a class="footer__link" href="#works">Works</a>
+            </li>
+            <li>
+                <a class="footer__link" href="#services">Services</a>
+            </li>
+        </ul>
+        <div class="footer__social">
+            <a class="footer__social-link" href="">
+                <i class='bx bxl-tiktok'></i>
+            </a>
+            <a class="footer__social-link" href="">
+                <i class='bx bxl-instagram-alt'></i>
+            </a>
+            <a class="footer__social-link" href="">
+                <i class='bx bxl-twitter'></i>
+            </a>
+        </div>
+        <span class="footer__copy">&#169 Yv | All Rights Reserved.</span>
+    </div>
+</footer>
+
+<!-- SWIPER JS -->
+<script src="assets/js/swiper-bundle.min.js"></script>
+
+<!-- MAIN JS -->
+<script src="assets/js/script.js"></script>
+</body>
+
+</html>
