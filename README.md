@@ -1,6 +1,6 @@
 ## Reel Guy (HTML Template)
 
-https://github.com/yuvraj-timalsina/photography-website/blob/master/assets/img/Reel%20Guy.png
+![Preview](https://github.com/yuvraj-timalsina/photography-website/blob/master/assets/img/Reel%20Guy.png)
 
 
 ## Author
